@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document created by Gabby Dunlap, October, 2, 2017 updated October 2017*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lucida Sans, Helvetica, Geneva, sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	color: #8C2307;
+	background-color: #D89577;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 28px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	margin: 0;
+}
+h2 {
+	font-size: 24px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	color: #8C2307;
+	padding: 0 40px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #8C2307;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #8C2307;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #000000 1px;
+	padding: 10px;
+}
+td {
+	padding: 6px;
+	border: solid #000000 1px;
+}
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	border: solid #000000 1px;
+}
+
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #ffe6cc 3px;
+}
+
+
+iframe {
+	border: solid #000000 1px;
+	padding: 8px;
+	margin: 8px;
+}
+/* DIV STYLES FOR PAGE LAYOUT*/
+#container {
+	width:900px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+#header {
+	width: 100%;
+	background-color: #eee;
+	border-bottom: 1px solid #ffe6cc;
+	padding-bottom: 40px;
+	
+}
+
+#content {
+	width: 600px;
+	float: left;
+	padding-bottom: 40px;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+	padding-right: 80px;
+}
+
+#footer {
+	width: 100%;
+	background-color: #eee;
+	border-top: 1px solid #ffe6cc;
+	padding: 40px 0;
+	clear: both;
+}
+#footer p {
+	margin: 0;
+}
+
+#img {
+	float: right;
+}
+
+#table{
+	padding: 35px;
+	margin: 0;
+}
+
+#iframe {
+	float: left;
+}
